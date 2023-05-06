@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.image {
+  width: 100%;
+  text-align: center;
+}
+.search-area {
+  background-color: rgb(227, 227, 227);
+  text-align: center;
+}
+.search-area h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.search-box {
+  text-align: center;
+  width: 600px;
+  display: block;
+  line-height: 1.5rem;
+  margin: auto;
+}
+.button {
+  width: 150px;
+  height: 25px;
+  font-size: 1rem;
+  display: inline-block;
+}
+.float-left {
+  float: left;
+}
+
+.box1 {
+  background-color: rgb(162, 255, 255);
+  width: 35%;
+  padding: 10px;
+  font-size: 1.2rem;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  background-color: rgb(139, 223, 223);
+  width: 25%;
+  height: 75px;
+  padding: 10px;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  background-color: rgb(100, 223, 223);
+  width: calc(100% - 60% - 60px);
+  padding: 10px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clear {
+  clear: both;
+}
+.footer {
+  text-align: center;
+  margin: 30px;
+}
